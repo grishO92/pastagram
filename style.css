@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(255, 243, 229);
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: rgb(255, 255, 255);
+  padding: 15px 15px;
+  display: grid;
+  place-items: center;
+}
+
+.seachFld {
+  font-size: 1.5rem;
+  width: 25rem;
+  text-align: center;
+  color: rgb(80, 55, 55, 0.5);
+  background-color: rgb(255, 243, 229);
+  border: none;
+  border-radius: 4px;
+}
+
+.searchBtn {
+  font-size: 1.5rem;
+  border-color: rgb(143, 113, 79);
+  background-color: white;
+  color: rgb(143, 113, 79);
+  border-radius: 4px;
+}
+
+.searchBtn:hover {
+  background-color: rgb(143, 113, 79);
+  border-color: transparent;
+  cursor: pointer;
+  color: white;
+}

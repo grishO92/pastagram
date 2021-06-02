@@ -3,8 +3,10 @@ body {
   background-color: rgba(250, 230, 208, 0.459);
   margin: 0;
   padding: 0;
-  overflow: auto;
-  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 .header {

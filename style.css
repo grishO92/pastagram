@@ -65,7 +65,7 @@ body {
   color: white;
 }
 
-.photo-grid {
+#image-grid {
   margin: 0 15rem;
   padding-top: 5rem;
   display: grid;
@@ -73,7 +73,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-auto-rows: 200px;
 }
-.card {
+#card {
   object-fit: cover;
   object-position: center;
   width: 100%;

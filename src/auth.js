@@ -1,5 +1,5 @@
 export const key = {
-  flickr: {
-    key: '3564f854d92afeb0c1c5fd0d8ffc38f1',
+  unsplash: {
+    key: '-AeJ0WVIjxSaM_J7lTqaFMur7ZdnTZRyPF5RqtUc7ew',
   },
 };

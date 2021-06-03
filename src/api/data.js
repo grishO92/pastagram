@@ -1,5 +1,5 @@
 import * as api from './api.js';
-import { key } from '../auth.js';
+import { key } from './auth.js';
 
 const apiKey = `client_id=${key.unsplash.key}`;
 const host = (api.settings.host = `https://api.unsplash.com/search/photos/?`);

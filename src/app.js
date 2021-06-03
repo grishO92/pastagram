@@ -9,7 +9,15 @@ const homeTemplate = (result, onSearch) => html`
     <a class="logo">PastaGram</a>
     <button @click=${onSearch} class="searchBtn">some PASTA</button>
   </header>
-  <div class="image-grid">${result.map(tile)}</div>
+  <div class="image-grid">
+    ${result.length > 0
+      ? result.map(tile)
+      : html`
+          <span class="clickThat"
+            >Click the button above to load pasta images</span
+          >
+        `}
+  </div>
 `;
 
 let result = [];

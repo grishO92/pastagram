@@ -25,6 +25,7 @@ render(homeTemplate(result, onSearch), main);
 
 async function onSearch(e) {
   e.preventDefault();
+  e.target.textContent = 'more Pasta';
   const final = await searchPasta();
   window.scroll(0, document.body.scrollHeight);
 

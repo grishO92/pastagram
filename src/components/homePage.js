@@ -20,7 +20,7 @@ export let result = [];
 
 export async function onSearch(e) {
   e.preventDefault();
-  e.target.textContent = 'more Pasta';
+  e.target.textContent = 'more PASTA';
   const final = await searchPasta();
   window.scroll(0, document.body.scrollHeight);
 
